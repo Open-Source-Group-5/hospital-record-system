@@ -1,0 +1,83 @@
+body{
+	width: 100%;
+	
+}
+
+#myChart{
+	margin: 5% 15% 5% 15%;
+}
+
+.sidebar{
+	overflow: hidden;
+	width: 18%;
+	float: left;
+	background-color: #ddd;
+	height: 87%;
+}
+
+.sidebar h2{
+	padding: 10px 10px;
+	color: #3D4552;
+	font-family: sans-serif;
+}
+.sidebar ul a{
+	text-decoration: none;
+}
+
+.sidebar ul a li{
+	color: #3D4552;
+	font-size: 1.15em;
+	padding: 2px 10px;
+}
+
+.sidebar ul a .selected{
+	background-color: #696969;
+	color: #fff;
+	border-right: 4px solid #fff;
+}
+
+.sidebar ul a li:hover{
+	background-color: #696969;
+	color: #fff;
+	border-right: 4px solid #fff;
+}
+
+.more-info ul{
+	position: absolute;
+	margin-left: 90%;
+	margin-top: 2%;
+}
+.more-info li{
+	list-style: square;
+	font-size: 1.3em;
+}
+
+.first{
+	color: rgba(44 ,151, 223, 1);
+}
+
+.second{
+	color: rgba(232, 76, 61,1);
+}
+
+.third{
+	color: rgba(241, 197, 14, 1);
+}
+
+.fourth{
+	color: rgba(156, 86, 184, 1);
+}
+
+
+.graph{
+	float: left;
+	
+}
+
+ .graph p{
+ 	font-family: boycott;
+ 	text-align: center;
+ 	font-size: 1.5em;
+ 	color: #2C97DF;
+ }
+

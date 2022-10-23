@@ -1,0 +1,153 @@
+body{
+    font: 0.9em calibri;
+}
+h1, ul{
+    margin: 0;
+    padding: 0;
+    color:#999;
+}
+.clear{
+    clear: both;
+}
+#wrap{
+    width: 950px;
+    padding: 10px;
+    margin: 0 auto;
+}
+#header{
+
+    margin-bottom: 20px;
+}
+#menu ul{
+    list-style:none;
+    margin-bottom:60px;
+    border-top: 1px solid #000;
+}
+#menu ul li a{
+    text-decoration:none;
+    display:none;
+    zoom:1;
+    display:inline;
+    padding:10px 15px 10px 15px;
+    float:left;
+}
+#menu ul li a:hover {
+    background:#b0e0e6;
+    color:#fff;
+    dsiplay:block;
+    
+}
+#menu ul li a.selected{
+    background:#7dafe5;
+    color:#fff;
+}
+#menu ul li ul{
+    position:absolute;
+	display:none;
+    float:right;
+    padding:;
+}
+#menu ul li:hover ul {
+    float:none;
+    display:inline;
+    postion:absolute;
+    
+}
+
+#dcontent{
+    width:450px;
+    padding:20px;
+    float: left;
+    color:#777;
+    min-height:450px;
+    background:#d5d5d5;
+    border-radius:8px;
+}
+#space{
+    width:16px;
+    float:left;
+    min-height:360px;
+    background:#fff;
+}
+
+  #registernewpatient{
+      min-width:200px;
+      height:160px;
+      float:left;
+      color:#fff;
+      background:#f48235;
+      border-radius:6px;
+      text-decoration:none;
+	  border-bottom:5px;
+}
+#registernewpatient:hover{
+    background:#7dafe5;
+    text-decoration:none;
+    border:px solid #999;
+    
+}
+#spaces{
+    width:7px;
+    height: 160px;
+    float:left;    
+}
+#patientrecord{
+    min-width: 200px;
+    height:160px;
+    float:left;
+    color:#fff;
+    background: #00d52a;
+    border-radius:6px;
+}
+#patientrecord:hover{
+    background:#7dafe5;
+    text-decoration:none;
+    border:0pxsolid #999; 
+}
+#vitalrate{
+    min-width:200px;
+    height:160px;
+    float:left;
+    color:#fff;
+    background:#ff3613;
+    border-radius:6px;
+	border-top:7px solid #fff
+}
+#vitalrate:hover{
+    background: #7dafe5;
+    text-decoration:none;
+    border:px solid #999;
+}
+#spacex{
+    width:7px;
+    height:160px;
+    float:left;
+}
+#locations{
+    min-width:200px;
+    height:160px;
+    float:left;
+    color:#fff;
+    background:#aaaaff;
+    border-radius:6px;
+	border-top:7px solid #fff
+}
+#locations:hover{
+    background: #7dafe5;
+    text-decoration:none;
+    border:px solid #999;
+}
+#spacee{
+    width:412px;
+    height:8px;
+    float:left;
+}
+#chat{
+    width:412px;
+    min-height: 30px;
+    float:left;
+    background:#7dafe5;
+    padding-top:30px;
+    color:#777;
+    border-radius:6px;
+}

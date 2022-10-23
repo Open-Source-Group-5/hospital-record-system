@@ -1,0 +1,43 @@
+body{
+    font:0.9em calibri;
+}
+h1, h2, ul{
+    margin:0;
+    padding:0;
+    color:#999;
+}
+h2{
+    float:right;
+}
+.clear{
+    clear:both;
+}
+#wrap{
+    width: 950px;
+    padding: 10px;
+    margin:0 auto;
+}
+#header{
+    margin-bottom: 20px;
+}
+#menu ul{
+    list-style:none;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #000;
+}
+#menu ul li a{
+    text-decoration:none;
+    display:inline-block;
+    zoom:1;
+    display:inline;
+    padding: 10px 15px 10px 15px;
+    float: left;
+}
+#menu ul li a:hover{
+    background:#b0e0e6;
+    color:#fff;
+}
+#menu ul li a.selected{
+    background:#7dafe5;
+    color:#fff;
+}

@@ -1,0 +1,79 @@
+body{
+    font: 0.9em calibri;
+}
+h1, ul{
+    margin: 0;
+    padding: 0;
+    color:#999;
+}
+.clear{
+    clear: both;
+}
+#wrap{
+    width: 940px;
+    padding: 10px;
+    margin: 0 auto;
+}
+#header{
+    margin-bottom: 20px;
+}
+#menu ul{
+    list-style: none;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #000;
+}
+#content{
+    width: 630px;
+    float: left;
+    min-height: 320px;
+    background: #fff;
+}
+
+#content, #side{
+    min-height:320px;
+}
+
+#side{
+    width:230px;
+    padding:0px;
+    min-height:400px;
+    float:right;
+    border-left:0px solid;
+    border-radius: 15px;
+    background: #d5d5d5;
+    color:#777;
+}
+.signinbutton{
+    margin:10px;
+    background: #ededed;
+    padding: 5px 15px;
+    border:4px solid #dcdcdc;
+    border-radius:12px;
+    color:#777;
+    text-decoration:none;
+    font:bold 0.9em ;
+}
+.signinbutton:hover{
+    background:#7dafe5;
+    text-decoration:none;
+}
+
+#menu ul li a{
+    text-decoration: none;
+    display: inline-block;
+    zoom: 1;
+    display: inline;
+    padding: 10px 15px 10px 15px;
+    float:left;
+}
+#content h1{
+    font-size:1.9em;
+}
+    #menu ul li a:hover {
+        background:#b0e0e6;
+        color:#fff;
+    }
+#menu ul li a.selected{
+background:#7dafe5;
+    color:#fff;
+}
