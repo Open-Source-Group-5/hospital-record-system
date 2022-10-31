@@ -1,2 +1,2 @@
 # Whatsup man
-## This is a testing site
+## This is a testing site for testing purposes.
